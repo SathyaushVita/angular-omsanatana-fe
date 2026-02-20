@@ -1,0 +1,42 @@
+.side-menu-open .side-menu {
+    display: block !important;
+  }
+  
+  .custom-padding {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  *::-webkit-scrollbar {
+    width: 0px !important;
+    background-color: white !important;
+  }
+
+
+  
+  ::ng-deep .highlight-keyword {
+    color: #FF5500; /* Text color for highlighted keywords */
+    font-weight: bold;
+    padding: 2px 4px;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: transparent; /* No background color */
+    transition: color 0.3s ease; /* Optional transition for color */
+}
+
+::ng-deep .highlight-keyword:hover {
+    color: #FFB74D; /* Hover color */
+}
+
+
+.highlighted-category {
+  font-weight: bold;
+  color: #ff5500;
+}
+
+.highlighted-subcategory {
+  font-weight: bold;
+  color: #ff8c00;
+}
+p {
+  user-select: none; /* Disable text selection */
+}

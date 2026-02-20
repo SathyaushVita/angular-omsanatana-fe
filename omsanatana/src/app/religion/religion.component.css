@@ -1,0 +1,21 @@
+.side-menu-open .side-menu {
+  display: block !important;
+}
+
+.custom-padding {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+*::-webkit-scrollbar {
+  width: 0px !important;
+  background-color: white !important;
+}
+
+
+
+
+
+
+
+
+

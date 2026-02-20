@@ -1,0 +1,58 @@
+.carousel-item img {
+    height: 200px; 
+    object-fit: cover; 
+  }
+  
+.responsive-image {
+  width: 100%;
+}
+
+@media (min-width: 1200px) {
+  .responsive-image {
+      height: 35vh;
+  }
+  .carousel-item img {
+      height:40vh;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199.98px) {
+  .responsive-image {
+      height: 40vh;
+  }
+  .carousel-item img {
+      height: 35vh;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .responsive-image {
+      height: 20vh;
+  }
+  .carousel-item img {
+      height: 20vh;
+  }
+}
+
+.category-card {
+  font-size: 18px;  
+  margin-bottom: 10px;  
+}
+/* Remove default numbers */
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  cursor: pointer;
+  list-style-type: none;
+margin-left: 10px;}
+
+.carousel-indicators li::before {
+  content: none; /* Removes the numbers */
+}
+
+/* Active dot styling */
+.carousel-indicators .active {
+  background-color: #007bff; /* Blue or any color you prefer */
+}
